@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/qiymet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1ci qiymetinizi yazin"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+
+
+
+    <EditText
+        android:id="@+id/qiymet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2ci  qiymetinizi yazin"
+        tools:ignore="MissingConstraints" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/qiymet3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="3cu qiymetinizi yazin"
+        tools:ignore="MissingConstraints" >
+</EditText>
+
+    <Button
+        android:id="@+id/buton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qeyd"
+        >
+
+    </Button>
+</LinearLayout>
